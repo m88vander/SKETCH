@@ -6,6 +6,9 @@ import { Grid } from './Grid'
 import { Button } from './Button'
 import { Navigation } from './Navigation'
 import { Footer } from './Footer'
+import { Hero } from './Hero'
+import { Logo } from './Logo'
+import { CTA } from './CTA'
 
 export {
   Container,
@@ -16,4 +19,7 @@ export {
   Button,
   Navigation,
   Footer,
+  Hero,
+  Logo,
+  CTA,
 }
