@@ -2,7 +2,6 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
-import Image from 'next/image'
 import { Container } from './Container'
 
 interface NavLink {
@@ -27,12 +26,9 @@ export const Navigation: React.FC = () => {
         <div className="flex items-center justify-between py-4">
           {/* Logo */}
           <Link href="/" className="hover:opacity-70 transition-opacity">
-            <Image
+            <img
               src="/nest1.jpg"
               alt="SKETCH Logo"
-              width={120}
-              height={40}
-              priority
               className="h-10 w-auto"
             />
           </Link>
