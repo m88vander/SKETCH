@@ -1,5 +1,3 @@
-import React from 'react'
-
 export const metadata = {
   title: 'Typography & Design System | SKETCH',
   description: 'SKETCH design system showcase.',
@@ -41,7 +39,7 @@ export default function DesignSystemPage() {
         <div className="mb-20">
           <h2 className="text-gray-600 mb-8 text-sm uppercase tracking-wide">Blockquote</h2>
           <blockquote>
-            "Your life is never finished. It's something you're constantly drawing. Sometimes you zoom in and realize a line looks perfect. Then you zoom out. And realize it doesn't belong. That's okay. You have an eraser. You can redraw it."
+            "Your life is never finished. It's something you're constantly drawing. Sometimes you zoom in and realize a line looks perfect. Then you zoom out. And realize it doesn't belong. That's[...]
           </blockquote>
         </div>
 

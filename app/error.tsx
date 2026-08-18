@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
 import { Container } from '@/components/Container'
 import { Section } from '@/components/Section'
 import { Navigation } from '@/components/Navigation'

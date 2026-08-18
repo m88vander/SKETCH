@@ -1,4 +1,3 @@
-import React from 'react'
 import { Navigation } from '@/components/Navigation'
 import { Footer } from '@/components/Footer'
 import { Container } from '@/components/Container'
@@ -41,7 +40,7 @@ export default function PhilosophyPage() {
                   Imagine taking your entire existence and drawing it out.
                 </p>
                 <p className="text-gray-800">
-                  Your work. Your relationships. Your routines. Your hobbies. Your health. Your environment. Your habits. Your possessions. Your conversations. Your friends. Your family. Your free time. Your ambitions. Your failures. Your small daily decisions.
+                  Your work. Your relationships. Your routines. Your hobbies. Your health. Your environment. Your habits. Your possessions. Your conversations. Your friends. Your family. Your free[...]
                 </p>
                 <p className="text-gray-800">
                   Together, these become the picture of your life.
@@ -60,10 +59,10 @@ export default function PhilosophyPage() {
                   We constantly move between two perspectives.
                 </p>
                 <p className="text-gray-800">
-                  Sometimes we zoom in on the details. We examine a single line. A choice. A habit. A relationship. When we zoom in, that detail can look perfect by itself. The line is clean. The choice feels right. The habit feels normal. The relationship feels good.
+                  Sometimes we zoom in on the details. We examine a single line. A choice. A habit. A relationship. When we zoom in, that detail can look perfect by itself. The line is clean. The [...]
                 </p>
                 <p className="text-gray-800">
-                  But then we zoom out. We see the entire picture. We ask: Does this detail belong in the larger composition? Does this line fit with all the other lines? Does this choice align with the life I'm actually trying to create?
+                  But then we zoom out. We see the entire picture. We ask: Does this detail belong in the larger composition? Does this line fit with all the other lines? Does this choice align wi[...]
                 </p>
                 <p className="text-gray-800">
                   Sometimes, when we zoom out, we realize that a line that looked perfect by itself doesn't fit the whole picture.
@@ -77,10 +76,10 @@ export default function PhilosophyPage() {
                   Most people are trapped at one zoom level.
                 </p>
                 <p className="text-gray-800">
-                  Some people zoom in so far they can never see the whole picture. They obsess over individual details. A specific task. A single relationship. They lose sight of whether these details are building the life they actually want.
+                  Some people zoom in so far they can never see the whole picture. They obsess over individual details. A specific task. A single relationship. They lose sight of whether these det[...]
                 </p>
                 <p className="text-gray-800">
-                  Other people zoom out so far they never examine anything carefully. They follow the default path. They adopt inherited assumptions. They don't question whether the big picture they're creating actually matches their values.
+                  Other people zoom out so far they never examine anything carefully. They follow the default path. They adopt inherited assumptions. They don't question whether the big picture th[...]
                 </p>
                 <p className="text-gray-800">
                   The skill is learning to move fluidly between the zoom levels. To zoom in. To zoom out. To ask constantly: Does this still fit?
@@ -134,7 +133,7 @@ export default function PhilosophyPage() {
                   You make the marks. You make the choices. You make the decisions. Every decision is another line. Every line is an expression of intention.
                 </p>
                 <p className="text-gray-800">
-                  You cannot control everything that happens in the world around you. The economy. Other people's actions. Chance. Tragedy. Opportunity. You cannot control the paper you're drawing on—sometimes it tears, sometimes it's thick, sometimes it's thin.
+                  You cannot control everything that happens in the world around you. The economy. Other people's actions. Chance. Tragedy. Opportunity. You cannot control the paper you're drawin[...]
                 </p>
                 <p className="text-gray-800">
                   But you can continually examine the marks you're making.
@@ -157,7 +156,7 @@ export default function PhilosophyPage() {
                   The person you are today is not necessarily the person you'll be tomorrow.
                 </p>
                 <p className="text-gray-800">
-                  Your values will evolve. Your priorities will shift. Your understanding of what matters will deepen. Your capacity will grow. Your compassion will expand. Your wounds will heal. New wounds will appear.
+                  Your values will evolve. Your priorities will shift. Your understanding of what matters will deepen. Your capacity will grow. Your compassion will expand. Your wounds will heal.[...]
                 </p>
                 <p className="text-gray-800">
                   All of this is normal. All of this is expected. All of this is the sketch.

@@ -5,7 +5,6 @@ import { Section } from '@/components/Section'
 import { Navigation } from '@/components/Navigation'
 import { Footer } from '@/components/Footer'
 import { ArticleGrid } from '@/components/ArticleGrid'
-import { CTA } from '@/components/CTA'
 import { articles, getCategories } from '@/data/articles'
 import { useState } from 'react'
 
