@@ -17,7 +17,7 @@ export default function Home() {
         <div className="space-y-6 md:space-y-8">
           <div className="flex justify-center">
             <img
-              src="/nes1k.jpg"
+              src="nes1k.jpg"
               alt="SKETCH"
               className="h-24 md:h-32 w-auto"
             />
@@ -163,7 +163,7 @@ export default function Home() {
           <div className="max-w-2xl mx-auto text-center">
             <div className="flex justify-center mb-6">
               <img
-                src="/nes1k.jpg"
+                src="nes1k.jpg"
                 alt="SKETCH"
                 className="h-16 w-auto"
               />
