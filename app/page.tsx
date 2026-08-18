@@ -18,12 +18,12 @@ export default function Home() {
         <div className="space-y-6 md:space-y-8">
           <div className="flex justify-center">
             <Image
-              src="/logo.svg"
+              src="/logo.png"
               alt="SKETCH"
-              width={200}
-              height={80}
+              width={400}
+              height={120}
               priority
-              className="h-20 md:h-28 w-auto"
+              className="h-24 md:h-32 w-auto"
             />
           </div>
           <div className="max-w-2xl mx-auto space-y-4">
@@ -167,11 +167,11 @@ export default function Home() {
           <div className="max-w-2xl mx-auto text-center">
             <div className="flex justify-center mb-6">
               <Image
-                src="/logo.svg"
+                src="/logo.png"
                 alt="SKETCH"
-                width={120}
-                height={48}
-                className="h-12 w-auto"
+                width={300}
+                height={90}
+                className="h-16 w-auto"
               />
             </div>
             <p className="text-lg leading-relaxed mb-2 text-gray-700">
