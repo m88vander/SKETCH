@@ -8,6 +8,10 @@ const nextConfig = {
         protocol: 'https',
         hostname: '*.sketch.com',
       },
+      {
+        protocol: 'https',
+        hostname: 'sketch.com',
+      },
     ],
   },
 
@@ -42,18 +46,11 @@ const nextConfig = {
             key: 'Referrer-Policy',
             value: 'strict-origin-when-cross-origin',
           },
+          {
+            key: 'Permissions-Policy',
+            value: 'geolocation=(), microphone=(), camera=()',
+          },
         ],
-      },
-    ]
-  },
-
-  // Redirects (useful for SEO)
-  async redirects() {
-    return [
-      {
-        source: '/journal/:slug',
-        destination: '/journal/:slug',
-        permanent: false,
       },
     ]
   },

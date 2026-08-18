@@ -7,7 +7,7 @@ import { CTA } from '@/components/CTA'
 
 export const metadata = {
   title: 'Contact | SKETCH',
-  description: 'Get in touch with SKETCH. We read every message.',
+  description: 'Get in touch with SKETCH. We read every message and respond within 48 hours.',
 }
 
 export default function ContactPage() {
@@ -46,10 +46,10 @@ export default function ContactPage() {
                     Email
                   </h3>
                   <a
-                    href="mailto:hello@sketch.com"
+                    href="mailto:m88vander@gmail.com"
                     className="text-gray-700 hover:text-black transition-colors"
                   >
-                    hello@sketch.com
+                    m88vander@gmail.com
                   </a>
                 </div>
 
@@ -96,7 +96,7 @@ export default function ContactPage() {
 
                 <div className="border-t border-gray-300 pt-6">
                   <p className="text-sm text-gray-600">
-                    We\'re interested in: partnership inquiries, collaboration ideas, feedback on the philosophy, and stories about how SKETCH is helping you redraw your picture.
+                    We're interested in: partnership inquiries, collaboration ideas, feedback on the philosophy, and stories about how SKETCH is helping you redraw your picture.
                   </p>
                 </div>
               </div>
@@ -135,7 +135,7 @@ export default function ContactPage() {
                     Can I wholesale SKETCH products?
                   </h3>
                   <p className="text-lg text-gray-700 leading-relaxed">
-                    We're interested in wholesale partnerships with aligned retailers. Email us at hello@sketch.com with your inquiry.
+                    We're interested in wholesale partnerships with aligned retailers. Email us at m88vander@gmail.com with your inquiry.
                   </p>
                 </div>
 

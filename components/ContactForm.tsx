@@ -62,28 +62,27 @@ export const ContactForm: React.FC = () => {
     setState({ status: 'loading', message: '' })
 
     try {
-      // TODO: Integrate with backend service (Nodemailer, Formspree, etc.)
-      // const response = await fetch('/api/contact', {
-      //   method: 'POST',
-      //   headers: { 'Content-Type': 'application/json' },
-      //   body: JSON.stringify(formData),
-      // })
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData),
+      })
 
-      // if (!response.ok) throw new Error('Failed to send message')
-
-      // For now, just simulate success
-      await new Promise((resolve) => setTimeout(resolve, 1000))
+      if (!response.ok) {
+        const error = await response.json()
+        throw new Error(error.error || 'Failed to send message')
+      }
 
       setState({
         status: 'success',
-        message: 'Message sent! We\'ll be in touch soon.',
+        message: 'Message sent! We\'ll be in touch within 48 hours.',
       })
 
       setFormData({ name: '', email: '', subject: '', message: '' })
     } catch (error) {
       setState({
         status: 'error',
-        message: 'Something went wrong. Please try again.',
+        message: error instanceof Error ? error.message : 'Something went wrong. Please try again.',
       })
     }
   }
