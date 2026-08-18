@@ -1,6 +1,32 @@
-<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg" width="200" height="80">
-  <!-- SKETCH hand-drawn style text -->
-  <text x="100" y="60" font-size="64" font-weight="700" text-anchor="middle" fill="currentColor" font-family="Arial, sans-serif" letter-spacing="2">
-    SKETCH
-  </text>
+<svg viewBox="0 0 800 150" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <style>
+      @font-face {
+        font-family: 'sketch-font';
+        src: local('Arial Black');
+      }
+    </style>
+  </defs>
+  
+  <!-- Hand-drawn sketchy SKETCH letters -->
+  <g fill="black" stroke="black" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- S -->
+    <path d="M 40 30 Q 60 30 60 50 Q 60 70 40 70 Q 20 70 20 90 Q 20 110 40 110" fill="none" stroke="black" stroke-width="8"/>
+    
+    <!-- K -->
+    <path d="M 100 30 L 100 110" fill="none" stroke="black" stroke-width="8"/>
+    <path d="M 160 30 L 100 70 L 160 110" fill="none" stroke="black" stroke-width="8"/>
+    
+    <!-- E -->
+    <path d="M 200 30 L 200 110 M 200 30 L 260 30 M 200 70 L 250 70 M 200 110 L 260 110" fill="none" stroke="black" stroke-width="8"/>
+    
+    <!-- T -->
+    <path d="M 300 30 L 360 30 M 330 30 L 330 110" fill="none" stroke="black" stroke-width="8"/>
+    
+    <!-- C -->
+    <path d="M 410 30 Q 390 30 390 70 Q 390 110 410 110" fill="none" stroke="black" stroke-width="8"/>
+    
+    <!-- H -->
+    <path d="M 450 30 L 450 110 M 450 70 L 520 70 M 520 30 L 520 110" fill="none" stroke="black" stroke-width="8"/>
+  </g>
 </svg>
