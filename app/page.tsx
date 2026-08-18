@@ -17,7 +17,7 @@ export default function Home() {
       <Hero className="bg-white">
         <div className="space-y-6 md:space-y-8">
           <div className="flex flex-col items-center space-y-3">
-            <SKETCHLogo variant="white" className="h-24 md:h-32 w-auto" />
+            <SKETCHLogo variant="default" className="h-24 md:h-32 w-auto" />
             <p className="text-lg md:text-xl text-gray-700 font-body italic">
               Life is Sketch - Embrace it
             </p>
