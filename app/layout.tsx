@@ -1,55 +1,5 @@
 import { Metadata } from 'next'
-import localFont from 'next/font/local'
 import './globals.css'
-
-// Display typeface: Modern Grotesk
-const displayFont = localFont({
-  src: [
-    {
-      path: '../public/fonts/grotesk-400.woff2',
-      weight: '400',
-      style: 'normal',
-    },
-    {
-      path: '../public/fonts/grotesk-500.woff2',
-      weight: '500',
-      style: 'normal',
-    },
-    {
-      path: '../public/fonts/grotesk-600.woff2',
-      weight: '600',
-      style: 'normal',
-    },
-    {
-      path: '../public/fonts/grotesk-700.woff2',
-      weight: '700',
-      style: 'normal',
-    },
-  ],
-  variable: '--font-display',
-})
-
-// Body typeface: Clean Sans-Serif
-const bodyFont = localFont({
-  src: [
-    {
-      path: '../public/fonts/sans-400.woff2',
-      weight: '400',
-      style: 'normal',
-    },
-    {
-      path: '../public/fonts/sans-500.woff2',
-      weight: '500',
-      style: 'normal',
-    },
-    {
-      path: '../public/fonts/sans-600.woff2',
-      weight: '600',
-      style: 'normal',
-    },
-  ],
-  variable: '--font-body',
-})
 
 export const metadata: Metadata = {
   title: 'SKETCH — Zoom In. Zoom Out. Redraw.',
@@ -74,7 +24,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={`${displayFont.variable} ${bodyFont.variable}`}>
+    <html lang="en">
       <body>{children}</body>
     </html>
   )
