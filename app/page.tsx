@@ -174,15 +174,6 @@ export default function Home() {
                 Life is Sketch - Embrace it
               </p>
             </div>
-            <p className="text-lg leading-relaxed mb-2 text-gray-700">
-              One idea.
-            </p>
-            <p className="text-lg leading-relaxed mb-2 text-gray-700">
-              One question.
-            </p>
-            <p className="text-lg leading-relaxed mb-8 text-gray-700">
-              One line worth redrawing.
-            </p>
             <form className="flex flex-col sm:flex-row gap-2 max-w-md mx-auto">
               <input
                 type="email"
