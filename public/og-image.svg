@@ -1,0 +1,33 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <!-- Black background -->
+  <rect width="1200" height="630" fill="#000000"/>
+  
+  <!-- SKETCH logo text (white hand-drawn style) -->
+  <g fill="none" stroke="#ffffff" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Z -->
+    <path d="M 100 150 L 280 150 L 100 350 L 280 350"/>
+    
+    <!-- S -->
+    <path d="M 320 150 C 320 150 380 150 380 200 C 380 250 320 250 320 300 C 320 350 380 350 380 350"/>
+    
+    <!-- K -->
+    <path d="M 420 150 L 420 350 M 580 150 L 420 275 L 580 350"/>
+    
+    <!-- E -->
+    <path d="M 620 150 L 620 350 M 620 150 L 760 150 M 620 250 L 740 250 M 620 350 L 760 350"/>
+    
+    <!-- T -->
+    <path d="M 800 150 L 940 150 M 870 150 L 870 350"/>
+    
+    <!-- C -->
+    <path d="M 980 150 C 980 150 1050 150 1050 225 C 1050 275 1050 325 1050 325 C 1050 325 1050 400 980 400"/>
+    
+    <!-- H -->
+    <path d="M 1100 150 L 1100 400 M 1100 275 L 1220 275 M 1220 150 L 1220 400"/>
+  </g>
+  
+  <!-- Tagline -->
+  <text x="600" y="480" font-family="Arial, sans-serif" font-size="32" fill="#ffffff" text-anchor="middle" letter-spacing="2">
+    ZOOM IN • ZOOM OUT • REDRAW
+  </text>
+</svg>
