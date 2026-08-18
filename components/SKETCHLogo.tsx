@@ -4,7 +4,11 @@ export const SKETCHLogo = () => {
       src="nes1k.jpg"
       alt="SKETCH"
       className="inline-block h-[1.2em] w-auto align-middle mx-0.5"
-      style={{ display: 'inline', verticalAlign: 'middle' }}
+      style={{ 
+        display: 'inline', 
+        verticalAlign: 'middle',
+        filter: 'brightness(0) saturate(100%)'
+      }}
     />
   )
 }
