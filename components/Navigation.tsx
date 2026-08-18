@@ -27,7 +27,7 @@ export const Navigation: React.FC = () => {
           {/* Logo */}
           <Link href="/" className="hover:opacity-70 transition-opacity">
             <img
-              src="/nes1k.jpg"
+              src="nes1k.jpg"
               alt="SKETCH Logo"
               className="h-10 w-auto"
             />
