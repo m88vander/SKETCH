@@ -68,7 +68,7 @@ export const Footer: React.FC = () => {
               </li>
               <li>
                 <a href="#" className="text-sm text-gray-600 hover:text-black transition-colors">
-                  Twitter
+                  TikTok
                 </a>
               </li>
             </ul>
