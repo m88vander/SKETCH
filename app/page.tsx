@@ -6,7 +6,6 @@ import { Section } from '@/components/Section'
 import { Text } from '@/components/Text'
 import { Grid } from '@/components/Grid'
 import { CTA } from '@/components/CTA'
-import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -17,12 +16,9 @@ export default function Home() {
       <Hero className="bg-white">
         <div className="space-y-6 md:space-y-8">
           <div className="flex justify-center">
-            <Image
+            <img
               src="/nest1.jpg"
               alt="SKETCH"
-              width={800}
-              height={240}
-              priority
               className="h-24 md:h-32 w-auto"
             />
           </div>
@@ -166,11 +162,9 @@ export default function Home() {
         <Container>
           <div className="max-w-2xl mx-auto text-center">
             <div className="flex justify-center mb-6">
-              <Image
+              <img
                 src="/nest1.jpg"
                 alt="SKETCH"
-                width={600}
-                height={180}
                 className="h-16 w-auto"
               />
             </div>
