@@ -6,6 +6,7 @@ import { Section } from '@/components/Section'
 import { Text } from '@/components/Text'
 import { Grid } from '@/components/Grid'
 import { CTA } from '@/components/CTA'
+import { SKETCHLogo } from '@/components/SKETCHLogo'
 
 export default function Home() {
   return (
@@ -47,8 +48,8 @@ export default function Home() {
       <Section id="philosophy" className="bg-gray-50">
         <Container>
           <div className="max-w-2xl mx-auto text-center space-y-6">
-            <h2 className="font-display font-bold text-4xl md:text-5xl leading-tight">
-              YOUR LIFE IS A SKETCH.
+            <h2 className="font-caveat text-5xl md:text-7xl leading-tight">
+              YOUR LIFE IS A <SKETCHLogo />.
             </h2>
             <Text variant="lead" className="text-gray-700">
               Your life isn't a finished picture. It's something you are constantly drawing.
