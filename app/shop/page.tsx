@@ -9,11 +9,6 @@ import { CTA } from '@/components/CTA'
 import { products, getCategories } from '@/data/products'
 import { useState } from 'react'
 
-export const metadata = {
-  title: 'Shop | SKETCH',
-  description: 'SKETCH apparel and accessories. Wear the practice.',
-}
-
 export default function ShopPage() {
   const [activeCategory, setActiveCategory] = useState<string | null>(null)
   const categories = getCategories()
