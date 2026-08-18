@@ -3,6 +3,7 @@ import { Section } from '@/components/Section'
 import { Navigation } from '@/components/Navigation'
 import { Footer } from '@/components/Footer'
 import { CTA } from '@/components/CTA'
+import { SKETCHLogo } from '@/components/SKETCHLogo'
 
 export const metadata = {
   title: 'About | SKETCH',
@@ -20,7 +21,7 @@ export default function AboutPage() {
           <Container>
             <div className="max-w-3xl">
               <h1 className="font-display font-bold text-5xl md:text-6xl leading-tight mb-6">
-                About SKETCH
+                About <SKETCHLogo />
               </h1>
               <p className="text-lg md:text-xl text-gray-700 leading-relaxed">
                 A philosophy and lifestyle brand built on the practice of conscious examination.
@@ -35,10 +36,10 @@ export default function AboutPage() {
             <div className="max-w-3xl space-y-8">
               <div>
                 <h2 className="font-display font-bold text-3xl md:text-4xl leading-tight mb-6">
-                  Why SKETCH Exists
+                  Why <SKETCHLogo /> Exists
                 </h2>
                 <p className="text-lg leading-relaxed text-gray-800 mb-6">
-                  We built SKETCH because we noticed something: Most people are not living their own lives. They're living versions of lives drawn for them by other people.
+                  We built <SKETCHLogo /> because we noticed something: Most people are not living their own lives. They're living versions of lives drawn for them by other people.
                 </p>
                 <p className="text-lg leading-relaxed text-gray-800 mb-6">
                   Their parents drew lines. Their culture drew lines. Their society drew lines. Their social media feeds drew lines. Their jobs drew lines. Their relationships drew lines.
@@ -47,7 +48,7 @@ export default function AboutPage() {
                   And somewhere in all of that, the original person got buried.
                 </p>
                 <p className="text-lg leading-relaxed text-gray-800">
-                  SKETCH exists to help people redraw their lives with intention. To examine the picture they're creating. To ask: Does this fit? And to have permission to change the answer.
+                  <SKETCHLogo /> exists to help people redraw their lives with intention. To examine the picture they're creating. To ask: Does this fit? And to have permission to change the answer.
                 </p>
               </div>
 
@@ -76,7 +77,7 @@ export default function AboutPage() {
                     We Create Frameworks
                   </h3>
                   <p className="text-lg leading-relaxed text-gray-800">
-                    The SKETCH framework (Zoom In / Zoom Out / Does It Fit? / Redraw) is a simple tool for examining your life. It's not a prescription. It's a practice.
+                    The <SKETCHLogo /> framework (Zoom In / Zoom Out / Does It Fit? / Redraw) is a simple tool for examining your life. It's not a prescription. It's a practice.
                   </p>
                 </div>
                 <div>
@@ -84,7 +85,7 @@ export default function AboutPage() {
                     We Tell Stories
                   </h3>
                   <p className="text-lg leading-relaxed text-gray-800">
-                    The SKETCH Journal explores difficult questions about work, relationships, identity, and the ongoing process of becoming yourself. These are not answers. They are invitations to think.
+                    The <SKETCHLogo /> Journal explores difficult questions about work, relationships, identity, and the ongoing process of becoming yourself. These are not answers. They are invitations to examine.
                   </p>
                 </div>
                 <div>
@@ -92,7 +93,7 @@ export default function AboutPage() {
                     We Create Objects
                   </h3>
                   <p className="text-lg leading-relaxed text-gray-800">
-                    SKETCH products are not fashion. They are reminders. Wear them as a commitment to conscious examination. Use them as tools for the practice.
+                    <SKETCHLogo /> products are not fashion. They are reminders. Wear them as a commitment to conscious examination. Use them as tools for the practice.
                   </p>
                 </div>
               </div>
@@ -108,13 +109,13 @@ export default function AboutPage() {
                 Who Is This For?
               </h2>
               <p className="text-lg leading-relaxed text-gray-800">
-                SKETCH is for anyone who has ever asked: Is this actually what I want? Anyone who has realized that the life they're living doesn't match the person they want to be. Anyone who has the courage to examine the picture and the strength to redraw what doesn't fit.
+                <SKETCHLogo /> is for anyone who has ever asked: Is this actually what I want? Anyone who has realized that the life they're living doesn't match the person they want to be. Anyone who has felt the pull to become something more than what they've inherited.
               </p>
               <p className="text-lg leading-relaxed text-gray-800">
                 You don't need to have it all figured out. You don't need to be starting from zero. You don't need to be in crisis. You just need to be willing to look.
               </p>
               <div className="space-y-4">
-                <p className="text-base font-semibold">SKETCH is for people who:</p>
+                <p className="text-base font-semibold"><SKETCHLogo /> is for people who:</p>
                 <ul className="space-y-3 text-lg text-gray-800">
                   <li className="flex items-start gap-3">
                     <span className="text-xl mt-1">•</span>
@@ -184,7 +185,7 @@ export default function AboutPage() {
           <Container>
             <div className="max-w-3xl space-y-8">
               <h2 className="font-display font-bold text-3xl md:text-4xl leading-tight">
-                How to Use SKETCH
+                How to Use <SKETCHLogo />
               </h2>
               <div className="space-y-6">
                 <div>
@@ -225,7 +226,7 @@ export default function AboutPage() {
           <Container>
             <div className="max-w-3xl text-center space-y-8">
               <p className="text-xl md:text-2xl text-gray-800 leading-relaxed">
-                SKETCH is not a brand you consume. It's a practice you inhabit.
+                <SKETCHLogo /> is not a brand you consume. It's a practice you inhabit.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                 <CTA href="/philosophy" variant="primary">
