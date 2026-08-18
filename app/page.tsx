@@ -72,8 +72,8 @@ export default function Home() {
           <Grid cols={2}>
             {[
               { title: 'Your Work', question: 'Is your career building the life you actually want?' },
-              { title: 'Your Relationships', question: 'Do the people around you bring out the person you're becoming?' },
-              { title: 'Your Health', question: 'Are you healthy because it fits your life, or because you're trying to become someone else's idea of healthy?' },
+              { title: 'Your Relationships', question: 'Do the people around you bring out the person you\'re becoming?' },
+              { title: 'Your Health', question: 'Are you healthy because it fits your life, or because you\'re trying to become someone else\'s idea of healthy?' },
               { title: 'Your Habits', question: 'Do your daily routines serve the person you want to become?' },
               { title: 'Your Environment', question: 'Does your physical space reflect and support who you are?' },
               { title: 'Your Ambitions', question: 'Are you chasing what you actually want, or what you think you should want?' },
