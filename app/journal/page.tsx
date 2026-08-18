@@ -1,3 +1,5 @@
+'use client'
+
 import { Container } from '@/components/Container'
 import { Section } from '@/components/Section'
 import { Navigation } from '@/components/Navigation'
@@ -6,13 +8,6 @@ import { ArticleGrid } from '@/components/ArticleGrid'
 import { CTA } from '@/components/CTA'
 import { articles, getCategories } from '@/data/articles'
 import { useState } from 'react'
-
-'use client'
-
-export const metadata = {
-  title: 'Journal | SKETCH',
-  description: 'Thoughts on life, work, relationships, and the practice of conscious examination.',
-}
 
 export default function JournalPage() {
   const [activeCategory, setActiveCategory] = useState<string | null>(null)
