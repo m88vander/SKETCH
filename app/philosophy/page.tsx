@@ -3,6 +3,7 @@ import { Footer } from '@/components/Footer'
 import { Container } from '@/components/Container'
 import { Section } from '@/components/Section'
 import { CTA } from '@/components/CTA'
+import { SKETCHLogo } from '@/components/SKETCHLogo'
 
 export const metadata = {
   title: 'Philosophy | SKETCH',
@@ -19,8 +20,8 @@ export default function PhilosophyPage() {
         <Section className="bg-white">
           <Container>
             <div className="max-w-3xl mx-auto">
-              <h1 className="font-display font-bold text-5xl md:text-6xl leading-tight mb-8">
-                YOUR LIFE IS A SKETCH.
+              <h1 className="font-display font-bold text-6xl md:text-8xl leading-tight mb-8">
+                YOUR LIFE IS A <SKETCHLogo />.
               </h1>
               <p className="text-lg md:text-xl text-gray-700 leading-relaxed">
                 Not a finished picture. Not something to be perfected and framed. A sketch.
