@@ -6,8 +6,7 @@ export const SKETCHLogo = () => {
       className="inline-block h-[1.2em] w-auto align-middle mx-0.5"
       style={{ 
         display: 'inline', 
-        verticalAlign: 'middle',
-        filter: 'brightness(0) saturate(100%)'
+        verticalAlign: 'middle'
       }}
     />
   )
