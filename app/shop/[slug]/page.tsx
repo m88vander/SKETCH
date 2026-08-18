@@ -8,6 +8,7 @@ import { ProductHero } from '@/components/ProductHero'
 import { SizeSelector } from '@/components/SizeSelector'
 import { AddToCart } from '@/components/AddToCart'
 import { CTA } from '@/components/CTA'
+import { SKETCHLogo } from '@/components/SKETCHLogo'
 import { getProductBySlug, products } from '@/data/products'
 import { useState } from 'react'
 import { notFound } from 'next/navigation'
@@ -145,7 +146,7 @@ export default function ProductPage({ params }: ProductPageProps) {
             <Container>
               <div className="space-y-8">
                 <h2 className="font-display font-bold text-3xl md:text-4xl">
-                  More from SKETCH
+                  More from <SKETCHLogo />
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                   {relatedProducts.map((relatedProduct) => (
