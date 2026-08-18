@@ -6,6 +6,7 @@ import { Section } from '@/components/Section'
 import { Text } from '@/components/Text'
 import { Grid } from '@/components/Grid'
 import { CTA } from '@/components/CTA'
+import { SKETCHLogo } from '@/components/SKETCHLogo'
 
 export default function Home() {
   return (
@@ -16,11 +17,7 @@ export default function Home() {
       <Hero className="bg-white">
         <div className="space-y-6 md:space-y-8">
           <div className="flex flex-col items-center space-y-3">
-            <img
-              src="nes1k.jpg"
-              alt="SKETCH"
-              className="h-24 md:h-32 w-auto"
-            />
+            <SKETCHLogo variant="white" className="h-24 md:h-32 w-auto" />
             <p className="text-lg md:text-xl text-gray-700 font-body italic">
               Life is Sketch - Embrace it
             </p>
@@ -165,11 +162,7 @@ export default function Home() {
         <Container>
           <div className="max-w-2xl mx-auto text-center">
             <div className="flex flex-col items-center space-y-3 mb-6">
-              <img
-                src="nes1k.jpg"
-                alt="SKETCH"
-                className="h-16 w-auto"
-              />
+              <SKETCHLogo variant="gray" className="h-16 w-auto" />
               <p className="text-sm md:text-base text-gray-700 font-body italic">
                 Life is Sketch - Embrace it
               </p>
