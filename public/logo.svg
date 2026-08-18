@@ -1,32 +1,30 @@
-<svg viewBox="0 0 800 150" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
-  <defs>
-    <style>
-      @font-face {
-        font-family: 'sketch-font';
-        src: local('Arial Black');
-      }
-    </style>
-  </defs>
-  
-  <!-- Hand-drawn sketchy SKETCH letters -->
-  <g fill="black" stroke="black" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round">
-    <!-- S -->
-    <path d="M 40 30 Q 60 30 60 50 Q 60 70 40 70 Q 20 70 20 90 Q 20 110 40 110" fill="none" stroke="black" stroke-width="8"/>
+<svg viewBox="0 0 1600 300" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+  <!-- Hand-drawn sketchy SKETCH logo - black letters -->
+  <g fill="none" stroke="black" stroke-width="28" stroke-linecap="round" stroke-linejoin="round">
+    <!-- S - with rough sketchy strokes -->
+    <path d="M 80 60 Q 130 60 140 100 Q 150 140 100 160 Q 50 180 40 220 Q 30 260 90 280" stroke-dasharray="none"/>
+    <path d="M 75 55 Q 135 65 145 105 Q 155 145 105 165 Q 45 185 35 225 Q 25 265 95 285" opacity="0.6" stroke-width="20"/>
     
-    <!-- K -->
-    <path d="M 100 30 L 100 110" fill="none" stroke="black" stroke-width="8"/>
-    <path d="M 160 30 L 100 70 L 160 110" fill="none" stroke="black" stroke-width="8"/>
+    <!-- K - with rough sketchy strokes -->
+    <path d="M 220 50 L 220 280" stroke-dasharray="none"/>
+    <path d="M 340 50 L 220 160 L 340 280" stroke-dasharray="none"/>
+    <path d="M 215 45 L 215 285" opacity="0.6" stroke-width="20"/>
+    <path d="M 345 45 L 215 165 L 345 285" opacity="0.6" stroke-width="20"/>
     
-    <!-- E -->
-    <path d="M 200 30 L 200 110 M 200 30 L 260 30 M 200 70 L 250 70 M 200 110 L 260 110" fill="none" stroke="black" stroke-width="8"/>
+    <!-- E - with rough sketchy strokes -->
+    <path d="M 400 50 L 400 280 M 400 50 L 510 50 M 400 165 L 490 165 M 400 280 L 510 280" stroke-dasharray="none"/>
+    <path d="M 395 45 L 395 285 M 395 45 L 515 55 M 395 170 L 495 160 M 395 285 L 515 275" opacity="0.6" stroke-width="20"/>
     
-    <!-- T -->
-    <path d="M 300 30 L 360 30 M 330 30 L 330 110" fill="none" stroke="black" stroke-width="8"/>
+    <!-- T - with rough sketchy strokes -->
+    <path d="M 560 50 L 690 50 M 625 50 L 625 280" stroke-dasharray="none"/>
+    <path d="M 555 45 L 695 55 M 630 45 L 620 285" opacity="0.6" stroke-width="20"/>
     
-    <!-- C -->
-    <path d="M 410 30 Q 390 30 390 70 Q 390 110 410 110" fill="none" stroke="black" stroke-width="8"/>
+    <!-- C - with rough sketchy strokes -->
+    <path d="M 800 50 Q 740 50 730 165 Q 720 280 800 280" stroke-dasharray="none"/>
+    <path d="M 805 45 Q 735 45 725 165 Q 715 285 805 285" opacity="0.6" stroke-width="20"/>
     
-    <!-- H -->
-    <path d="M 450 30 L 450 110 M 450 70 L 520 70 M 520 30 L 520 110" fill="none" stroke="black" stroke-width="8"/>
+    <!-- H - with rough sketchy strokes -->
+    <path d="M 880 50 L 880 280 M 880 165 L 1000 165 M 1000 50 L 1000 280" stroke-dasharray="none"/>
+    <path d="M 875 45 L 875 285 M 885 170 L 995 160 M 1005 45 L 1005 285" opacity="0.6" stroke-width="20"/>
   </g>
 </svg>
