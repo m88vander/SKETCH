@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 interface NavLink {
   label: string
@@ -23,8 +24,15 @@ export const Navigation: React.FC = () => {
     <nav className="sticky top-0 z-50 bg-white border-b border-gray-200">
       <div className="container flex items-center justify-between py-4">
         {/* Logo */}
-        <Link href="/" className="text-xl font-display font-bold tracking-tight hover:opacity-70 transition-opacity">
-          SKETCH
+        <Link href="/" className="hover:opacity-70 transition-opacity">
+          <Image
+            src="/logo.svg"
+            alt="SKETCH Logo"
+            width={120}
+            height={48}
+            priority
+            className="h-12 w-auto"
+          />
         </Link>
 
         {/* Desktop Navigation */}
