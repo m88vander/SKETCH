@@ -1,12 +1,12 @@
 import { Navigation } from '@/components/Navigation'
 import { Footer } from '@/components/Footer'
 import { Hero } from '@/components/Hero'
-import { Logo } from '@/components/Logo'
-import { CTA } from '@/components/CTA'
 import { Container } from '@/components/Container'
 import { Section } from '@/components/Section'
 import { Text } from '@/components/Text'
 import { Grid } from '@/components/Grid'
+import { CTA } from '@/components/CTA'
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -16,7 +16,16 @@ export default function Home() {
       {/* Hero Section */}
       <Hero className="bg-white">
         <div className="space-y-6 md:space-y-8">
-          <Logo size="lg" />
+          <div className="flex justify-center">
+            <Image
+              src="/logo.svg"
+              alt="SKETCH"
+              width={200}
+              height={80}
+              priority
+              className="h-20 md:h-28 w-auto"
+            />
+          </div>
           <div className="max-w-2xl mx-auto space-y-4">
             <p className="text-lg md:text-2xl leading-relaxed font-body font-normal tracking-tight">
               <span className="block font-display font-bold text-2xl md:text-4xl mb-4">ZOOM IN.</span>
@@ -156,9 +165,15 @@ export default function Home() {
       <Section className="bg-gray-50">
         <Container>
           <div className="max-w-2xl mx-auto text-center">
-            <h2 className="font-display font-bold text-3xl md:text-4xl leading-tight mb-6">
-              THE SKETCH
-            </h2>
+            <div className="flex justify-center mb-6">
+              <Image
+                src="/logo.svg"
+                alt="SKETCH"
+                width={120}
+                height={48}
+                className="h-12 w-auto"
+              />
+            </div>
             <p className="text-lg leading-relaxed mb-2 text-gray-700">
               One idea.
             </p>
