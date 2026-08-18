@@ -6,6 +6,7 @@ import { Section } from '@/components/Section'
 import { Text } from '@/components/Text'
 import { Grid } from '@/components/Grid'
 import { CTA } from '@/components/CTA'
+import { SKETCHLogo } from '@/components/SKETCHLogo'
 
 export default function Home() {
   return (
@@ -17,7 +18,7 @@ export default function Home() {
         <div className="space-y-6 md:space-y-8">
           <div className="flex flex-col items-center space-y-3">
             <img
-              src="nes1k.jpg"
+              src="nes1k.png"
               alt="SKETCH"
               className="h-24 md:h-32 w-auto"
             />
@@ -34,10 +35,10 @@ export default function Home() {
           </div>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <CTA href="#philosophy" variant="primary">
-              EXPLORE SKETCH
+              EXPLORE <SKETCHLogo />
             </CTA>
             <CTA href="/shop" variant="secondary">
-              SHOP THE FIRST SKETCH
+              SHOP THE FIRST <SKETCHLogo />
             </CTA>
           </div>
         </div>
@@ -149,12 +150,12 @@ export default function Home() {
               WEAR THE IDEA.
             </h2>
             <Text className="max-w-2xl mx-auto text-gray-700">
-              SKETCH products are physical expressions of the philosophy. They aren't meant to tell you how to live. They're reminders to keep looking at the picture.
+              <SKETCHLogo /> products are physical expressions of the philosophy. They aren't meant to tell you how to live. They're reminders to keep looking at the picture.
             </Text>
           </div>
           <div className="text-center">
             <CTA href="/shop" variant="primary" size="lg">
-              SHOP SKETCH
+              SHOP <SKETCHLogo />
             </CTA>
           </div>
         </Container>
@@ -166,7 +167,7 @@ export default function Home() {
           <div className="max-w-2xl mx-auto text-center">
             <div className="flex flex-col items-center space-y-3 mb-6">
               <img
-                src="nes1k.jpg"
+                src="nes1k.png"
                 alt="SKETCH"
                 className="h-16 w-auto"
               />

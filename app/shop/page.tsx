@@ -7,6 +7,7 @@ import { Footer } from '@/components/Footer'
 import { ProductGrid } from '@/components/ProductGrid'
 import { products, getCategories } from '@/data/products'
 import { useState } from 'react'
+import { SKETCHLogo } from '@/components/SKETCHLogo'
 
 export default function ShopPage() {
   const [activeCategory, setActiveCategory] = useState<string | null>(null)
@@ -28,7 +29,7 @@ export default function ShopPage() {
                 WEAR THE IDEA.
               </h1>
               <p className="text-lg md:text-xl text-gray-700 leading-relaxed">
-                SKETCH products are physical expressions of the philosophy. They aren't meant to tell you how to live. They're reminders to keep looking at the picture.
+                <SKETCHLogo /> products are physical expressions of the philosophy. They aren't meant to tell you how to live. They're reminders to keep looking at the picture.
               </p>
             </div>
           </Container>

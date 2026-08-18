@@ -4,6 +4,7 @@ import { Navigation } from '@/components/Navigation'
 import { Footer } from '@/components/Footer'
 import { ContactForm } from '@/components/ContactForm'
 import { CTA } from '@/components/CTA'
+import { SKETCHLogo } from '@/components/SKETCHLogo'
 
 export const metadata = {
   title: 'Contact | SKETCH',
@@ -96,7 +97,7 @@ export default function ContactPage() {
 
                 <div className="border-t border-gray-300 pt-6">
                   <p className="text-sm text-gray-600">
-                    We're interested in: partnership inquiries, collaboration ideas, feedback on the philosophy, and stories about how SKETCH is helping you redraw your picture.
+                    We're interested in: partnership inquiries, collaboration ideas, feedback on the philosophy, and stories about how <SKETCHLogo /> is helping you redraw your picture.
                   </p>
                 </div>
               </div>
@@ -132,7 +133,7 @@ export default function ContactPage() {
 
                 <div>
                   <h3 className="font-display font-bold text-xl mb-3">
-                    Can I wholesale SKETCH products?
+                    Can I wholesale <SKETCHLogo /> products?
                   </h3>
                   <p className="text-lg text-gray-700 leading-relaxed">
                     We're interested in wholesale partnerships with aligned retailers. Email us at m88vander@gmail.com with your inquiry.
@@ -150,10 +151,10 @@ export default function ContactPage() {
 
                 <div>
                   <h3 className="font-display font-bold text-xl mb-3">
-                    Can I use SKETCH's content?
+                    Can I use <SKETCHLogo />'s content?
                   </h3>
                   <p className="text-lg text-gray-700 leading-relaxed">
-                    Our philosophy and journal content can be shared and discussed. Please credit SKETCH and link back to the original article.
+                    Our philosophy and journal content can be shared and discussed. Please credit <SKETCHLogo /> and link back to the original article.
                   </p>
                 </div>
               </div>

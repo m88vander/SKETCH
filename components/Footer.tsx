@@ -1,4 +1,5 @@
 import React from 'react'
+import { SKETCHLogo } from './SKETCHLogo'
 
 interface FooterLink {
   label: string
@@ -21,7 +22,7 @@ export const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
           {/* Brand */}
           <div>
-            <p className="font-display font-bold text-lg mb-2">SKETCH</p>
+            <p className="font-display font-bold text-lg mb-2"><SKETCHLogo /></p>
             <p className="text-sm text-gray-600 leading-relaxed">
               A philosophy and lifestyle brand about consciously examining the life you're drawing.
             </p>
@@ -78,7 +79,7 @@ export const Footer: React.FC = () => {
         {/* Divider */}
         <div className="border-t border-gray-200 pt-8">
           <p className="text-sm text-gray-600 text-center">
-            © {currentYear} SKETCH. All rights reserved. Keep sketching.
+            © {currentYear} <SKETCHLogo />. All rights reserved. Keep sketching.
           </p>
         </div>
       </div>
