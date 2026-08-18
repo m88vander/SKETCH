@@ -3,7 +3,7 @@ export const SKETCHLogo = () => {
     <img
       src="nes1k.jpg"
       alt="SKETCH"
-      className="inline-block h-6 w-auto align-middle mx-1"
+      className="inline-block h-[1.2em] w-auto align-middle mx-0.5"
       style={{ display: 'inline', verticalAlign: 'middle' }}
     />
   )
