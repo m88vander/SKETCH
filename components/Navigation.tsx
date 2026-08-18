@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useState } from 'react'
+import { useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import { Container } from './Container'
@@ -30,10 +30,10 @@ export const Navigation: React.FC = () => {
             <Image
               src="/logo.svg"
               alt="SKETCH Logo"
-              width={120}
-              height={48}
+              width={100}
+              height={40}
               priority
-              className="h-12 w-auto"
+              className="h-10 w-auto"
             />
           </Link>
 
