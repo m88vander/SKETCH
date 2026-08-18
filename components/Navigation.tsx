@@ -28,9 +28,9 @@ export const Navigation: React.FC = () => {
           {/* Logo */}
           <Link href="/" className="hover:opacity-70 transition-opacity">
             <Image
-              src="/logo.svg"
+              src="/logo.png"
               alt="SKETCH Logo"
-              width={100}
+              width={120}
               height={40}
               priority
               className="h-10 w-auto"
