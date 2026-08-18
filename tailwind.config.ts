@@ -26,7 +26,6 @@ const config: Config = {
       fontFamily: {
         display: 'var(--font-display)',
         body: 'var(--font-body)',
-        caveat: ['var(--font-caveat-brush)', 'cursive'],
       },
       fontSize: {
         xs: ['0.75rem', '1rem'],
